@@ -1,0 +1,125 @@
+.lacquer-regular {
+    font-family: "Lacquer", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    margin-top: 2%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    box-shadow: 0 10px 15px rgb(255, 0, 0), 0 -10px 15px rgb(255, 0, 0);
+}
+
+.jogos-terror {
+    margin: 0;
+    font-family: "Lacquer", system-ui;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    font-family: "Lacquer", system-ui;
+    margin-top: 2%;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: rgb(255, 0, 0);
+}
+
+nav a:active {
+    color: rgb(0, 0, 0);
+}
+
+.squares-container {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+.square {
+    width: 220px; 
+    height: 220px; 
+    background-color: #000000; 
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.square:hover {
+    box-shadow: 0 0 30px rgb(255, 0, 0);
+    transform: scale(1.1);
+}
+
+.square img {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+.title {
+    color: #ffffff;
+    margin: 10px 0 0 0;
+    font-family: "Lacquer", system-ui;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.introducao {
+    text-align: center;
+    width: 45%;
+    margin: 20px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+    margin-top: 30px;
+    color: #ffffff;
+}
+
+.aviso {
+    background-color: black;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    border-radius: 100px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aviso:hover {
+    transform: scale(1.1);
+}
