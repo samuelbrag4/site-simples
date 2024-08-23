@@ -1,3 +1,4 @@
+/* Estilos globais */
 body {
     margin: 0;
     padding: 0;
@@ -9,6 +10,7 @@ body {
     background-color: rgb(0, 0, 0);
 }
 
+/* Cabeçalho */
 .titulo {
     display: flex;
     justify-content: center;
@@ -24,6 +26,7 @@ body {
     font-family: "Lacquer", system-ui;
 }
 
+/* Navegação */
 nav {
     display: flex;
     justify-content: center;
@@ -48,36 +51,58 @@ nav a:active {
     color: rgb(0, 0, 0);
 }
 
+/* Conteúdo principal */
 .caixa-textos {
-    background-color: aliceblue;
+    background-color: rgb(0, 0, 0);
     width: 80%;
-    color: black;
+    color: rgb(255, 255, 255);
     margin-top: 30px;
-    padding: 20px; /* Adiciona padding para garantir que o texto não encoste nas bordas */
+    padding: 20px;
 }
 
 .caixa-textos h1 {
-    text-align: center; /* Centraliza os h1 dentro da caixa-textos */
-    margin: 20px 0; /* Ajusta a margem para os h1 */
+    text-align: center;
+    margin: 20px 0;
 }
 
 .caixa-textos p {
-    text-align: left; /* Alinha os parágrafos à esquerda */
-    margin-bottom: 30px; /* Adiciona espaço abaixo dos parágrafos */
+    text-align: left;
+    margin-bottom: 30px;
+    font-size: 20px;
 }
 
+/* Imagem e texto */
 .imagem-container {
     display: flex;
-    align-items: flex-start; /* Alinha a imagem ao topo do texto */
-    margin-top: 20px; /* Espaço acima da imagem */
+    align-items: flex-start;
+    margin-top: 20px;
 }
 
 .imagem-container img {
     border-radius: 100%;
-    width: 200px;
-    margin-right: 20px; /* Espaço entre a imagem e o texto */
+    width: 300px;
+    margin-right: 20px;
 }
 
 .imagem-container .texto-com-imagem {
-    max-width: 70%; /* Limita a largura do texto ao lado da imagem */
+    max-width: 70%;
+}
+
+.texto-com-imagem a {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+.texto-com-imagem a:visited {
+    color: rgb(255, 0, 0);
+}
+
+.texto-com-imagem a:active {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+.texto-com-imagem a:hover {
+    text-decoration: underline;
+    color: rgb(200, 0, 0);
 }
