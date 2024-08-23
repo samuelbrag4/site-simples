@@ -50,7 +50,34 @@ nav a:active {
 
 .caixa-textos {
     background-color: aliceblue;
-    width: 400px;
-    height: 400px;
+    width: 80%;
     color: black;
+    margin-top: 30px;
+    padding: 20px; /* Adiciona padding para garantir que o texto não encoste nas bordas */
+}
+
+.caixa-textos h1 {
+    text-align: center; /* Centraliza os h1 dentro da caixa-textos */
+    margin: 20px 0; /* Ajusta a margem para os h1 */
+}
+
+.caixa-textos p {
+    text-align: left; /* Alinha os parágrafos à esquerda */
+    margin-bottom: 30px; /* Adiciona espaço abaixo dos parágrafos */
+}
+
+.imagem-container {
+    display: flex;
+    align-items: flex-start; /* Alinha a imagem ao topo do texto */
+    margin-top: 20px; /* Espaço acima da imagem */
+}
+
+.imagem-container img {
+    border-radius: 100%;
+    width: 200px;
+    margin-right: 20px; /* Espaço entre a imagem e o texto */
+}
+
+.imagem-container .texto-com-imagem {
+    max-width: 70%; /* Limita a largura do texto ao lado da imagem */
 }
